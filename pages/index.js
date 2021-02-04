@@ -4,6 +4,7 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div className="container">
+      {/* Component Head dari next js ini adalah ganti dari tag <head> pada html dan di component Head ini juga kita bisa kita gunakan untuk memberikan metadata, icon, title dll seperti halnya halaman html pada umumnya */}
       <Head>
         <title>Learn Next App</title>
         <link rel="icon" href="/favicon.ico" />
